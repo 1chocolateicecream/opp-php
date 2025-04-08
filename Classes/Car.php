@@ -21,8 +21,3 @@ class Car
         return "Brand: " . $this->brand . ", Color: " . $this->color;
     }
 }
-
-$car01 = new Car("Volvo", "green");
-echo $car01->getCarInfo();
-echo "<br>";
-echo $car01->vehicleType;
